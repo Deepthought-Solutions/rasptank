@@ -60,6 +60,7 @@ if __name__ == '__main__':
       Motor(2, 1, speed_set)
       print("Backward")
       time.sleep(2)
+      Motor(2, 1, speed_set)
       destroy()
   except KeyboardInterrupt:
     destroy()
