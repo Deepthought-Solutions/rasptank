@@ -1,2 +1,4 @@
+adafruit-extended-bus
 adafruit-circuitpython-motor
+adafruit-circuitpython-pca9685
 
