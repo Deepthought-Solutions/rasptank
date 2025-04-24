@@ -1,3 +1,17 @@
+These are helpers for raspbian bookworm
+
+sudo apt update
+sudo apt upgrade
+reboot
+sudo apt install git python-dev-is-python3
+sudo raspi-config nonint do_i2c 0
+
+git clone https://github.com/Deepthought-Solutions/rasptank
+cd rasptank
+python -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+
 rpicam-hello --list-cameras
 
 cat /etc/debian_version 
